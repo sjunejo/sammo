@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sammo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="login_username">Username: </string>
+	
+	<!-- Register -->
+	<string name = "register_username">Username: </string>
+	<string name = "register_username_spec">Username must be a minimum of 5 characters and a maximum of 8 characters.</string>
+	<string name = "register_password">Password: </string>
+	<string name = "register_password_confirm">Confirm Password: </string>
+	<string name = "register_password_spec">Password must be a minimum of 6 characters and must include at least one lowercase letter,
+	    at least one uppercase letter, a minimum of one number and one symbol.</string>    
+	<string name = "register_avatar">Avatar: </string>
+	<string name = "register_avatar_spec">Avatar must be a picture of yourself facing the camera. Maximum size: 150px x 150px.</string>
+	<string name = "register_email">E-mail: </string>
+	<string name = "register_email_confirm">Confirm e-mail: </string>
+	<string name = "register_email_spec">This must be a valid e-mail address, as it will be required for account verification.</string>
+	
+	
+	<!-- Login -->
+	<string name="login_password">Password: </string>
+	<string name="login_not_yet_registered">Not yet registered? Sign up here!</string>
+	
+	<!-- Landing -->
+	<string name="menu_search_queries">Search Queries</string>
+	<string name="menu_profile">Profile</string>
+	
+</resources>

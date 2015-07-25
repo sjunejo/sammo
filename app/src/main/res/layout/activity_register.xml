@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="match_parent">
+		    <TextView
+		        android:id="@+id/tvRegisterUsername"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:text="@string/register_username"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		    <EditText android:id="@+id/etRegisterUsername"
+		        	  android:layout_width="wrap_content"
+		        	  android:layout_height = "wrap_content"
+		        	  android:layout_below="@+id/tvRegisterUsername"
+		        	  android:ellipsize="end"
+			          android:ems="10"
+			          android:maxLines="1"
+			          android:inputType="textFilter|textNoSuggestions"
+			          android:singleLine="true"
+			          android:scrollHorizontally="true"/>
+		    <TextView
+		        android:id="@+id/tvRegisterUsernameSpec"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/etRegisterUsername"
+		        android:text="@string/register_username_spec"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		    <TextView
+		        android:id="@+id/tvRegisterPassword"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/tvRegisterUsernameSpec"
+		        android:text="@string/register_password"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		    
+		     <EditText android:id="@+id/etRegisterPassword"
+		        	  android:layout_width="wrap_content"
+		        	  android:layout_height = "wrap_content"
+		        	  android:layout_below="@+id/tvRegisterPassword"
+		        	  android:ellipsize="end"
+			          android:ems="10"
+			          android:maxLines="1"
+			          android:inputType="textFilter|textNoSuggestions"
+			          android:singleLine="true"
+			          android:scrollHorizontally="true"
+			          />
+		
+		    <TextView
+		        android:id="@+id/tvRegisterPasswordSpec"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/etRegisterPassword"
+		        android:text="@string/register_password_spec"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		    <TextView
+		        android:id="@+id/tvRegisterPasswordConfirm"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/tvRegisterPasswordSpec"
+		        android:text="@string/register_password_confirm"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		      <EditText android:id="@+id/etRegisterPasswordConfirm"
+		        	  android:layout_width="wrap_content"
+		        	  android:layout_height = "wrap_content"
+		        	  android:layout_below="@+id/tvRegisterPasswordConfirm"
+		        	  android:ellipsize="end"
+			          android:ems="10"
+			          android:maxLines="1"
+			          android:inputType="textFilter|textNoSuggestions"
+			          android:singleLine="true"
+			          android:scrollHorizontally="true"
+			    />
+		      
+		    <TextView
+		        android:id="@+id/tvRegisterAvatar"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/etRegisterPasswordConfirm"
+		        android:text="@string/register_avatar" 
+		        android:textAppearance="?android:attr/textAppearanceMedium"/>
+		
+		    <TextView
+		        android:id="@+id/tvRegisterAvatarSpec"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/tvRegisterAvatar"
+		        android:text="@string/register_avatar_spec" 
+		        android:textAppearance="?android:attr/textAppearanceSmall"/>
+		
+		    <TextView
+		        android:id="@+id/tvRegisterEmail"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/ivAvatar"
+		        android:text="@string/register_email"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		    <TextView
+		        android:id="@+id/tvRegisterEmailSpec"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/tvRegisterEmail"
+		        android:text="@string/register_email_spec"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		     <EditText android:id="@+id/etRegisterEmail"
+		        	  android:layout_width="wrap_content"
+		        	  android:layout_height = "wrap_content"
+		        	  android:layout_below="@+id/tvRegisterEmailSpec"
+		        	   android:ellipsize="end"
+			          android:ems="10"
+			          android:maxLines="1"
+			          android:inputType="textFilter"
+			          android:singleLine="true"
+			          android:scrollHorizontally="true"/>
+		    		      
+		    <TextView
+		        android:id="@+id/tvRegisterEmailConfirm"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/etRegisterEmail"
+		        android:text="@string/register_email_confirm"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		      <EditText android:id="@+id/etRegisterEmailConfirm"
+		        	  android:layout_width="wrap_content"
+		        	  android:layout_height = "wrap_content"
+		        	  android:layout_below="@+id/tvRegisterEmailConfirm"
+		        	  android:ellipsize="end"
+			          android:ems="10"
+			          android:maxLines="1"
+			          android:inputType="textFilter"
+			          android:singleLine="true"
+			          android:scrollHorizontally="true"/>
+
+		      <Button
+		          android:id="@+id/btnSelectAvatar"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+				  android:layout_below="@+id/tvRegisterAvatarSpec"
+		          android:layout_alignParentLeft="true"
+		          android:text="Browse..." />
+		      
+		      <!-- Note: Pixels must be hardcoded for accurate representation -->
+		      <ImageView
+		          android:id="@+id/ivAvatar"
+		          android:layout_width="150px" 
+		          android:layout_height="150px"
+		          android:layout_below="@+id/tvRegisterAvatarSpec"
+		          android:layout_toRightOf="@+id/btnSelectAvatar"
+		          />
+
+		     <Button
+		         android:id="@+id/btnRegisterFinalise"
+		         android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_marginTop="10dp"
+		         android:layout_below="@+id/etRegisterEmailConfirm"
+		         android:text="Register" />
+
+		</RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
